@@ -1,3 +1,11 @@
+head{
+  color: blue;
+  font-family: serif;
+  font-size: 32px;
+}
+
+
 body{
-    font-style: sans-serif;
+    font-family: sans-serif;
+    font-style: italic;
 }
