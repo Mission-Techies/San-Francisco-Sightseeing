@@ -1,7 +1,16 @@
 body{
     color: black;
+    font-family: sans-serif;
 }
 
+.banner {
+    text-align: center;
+}
+
+#background {
+    width: auto;
+    height: 400px;
+}
 #background a img {
     position: absolute;
     left: 0;
@@ -9,26 +18,31 @@ body{
     pointer-events: none;
 }
 
+.button-container {
+    position: relative;
+    text-align: center;
+}
+
 @keyframes fadeInOut {
   0% {
-    opacity:1;
+    opacity:0;
     pointer-events: all;
   }
-  17% {
+  8% {
     opacity:1;
     pointer-events: all;
   }
   25% {
-    opacity:0;
-    pointer-events: none;
+    opacity:1;
+    pointer-events: all;
   }
-  92% {
+  33% {
     opacity:0;
     pointer-events: none;
   }
   100% {
-    opacity:1;
-    pointer-events: all;
+    opacity:0;
+    pointer-events: none;
   }
 }
 
