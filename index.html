@@ -6,7 +6,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         
         <link rel="stylesheet" type="text/css" href="style.css">  
-        <script src="script.js"></script>
         
         <title>San Francisco Sights</title>
     </head>
@@ -29,7 +28,15 @@
             </a>
         </div>
         <div class="button-container">
-            <button type="button" class="btn btn-default btn-lg">Show nearby places!</button>
+            <!--button class="btn btn-link" role="link" type="submit" value="https://google.com">Show nearby places!</button-->
+            <button type="button" class="btn btn-default btn-lg" onclick="location.href='list.html';">Show nearby places!</button>
         </div>
+        
+        <!--
+        <form action="list.html">
+            <input type="submit" value="Show nearby places!" />
+        </form>
+        -->
+        
     </body>
 </html>
