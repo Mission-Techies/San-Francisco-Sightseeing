@@ -1,26 +1,32 @@
-body{
+body {
     color: black;
     font-family: sans-serif;
+    text-align: center;
+}
+
+body .locations .description {
+  text-align: center;
 }
 
 .banner {
-    text-align: center;
+  text-align: center;
 }
 
 #background {
     width: auto;
     height: 400px;
 }
+
 #background a img {
-    position: absolute;
-    left: 0;
-    opacity: 0;
-    pointer-events: none;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .button-container {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 @keyframes fadeInOut {
