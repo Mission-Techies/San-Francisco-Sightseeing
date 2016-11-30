@@ -21,9 +21,18 @@ $.get(loc_records, function(data) {
 		    letter = data.records[i+1].fields["Name"][0].toUpperCase();
 		  }
 	  }
-  
-    $(".locations").append(`<li class="description">${loc.fields["Name"]} <br>Location: ${loc.fields["Neighborhood"]}</li>`);
+	  
+	  var html = "<div onclick=\"location.href='detail.html?id=" + loc.id + "';\" style=\"cursor: pointer;\">";
+	  html += `<li class="description">${loc.fields["Name"]} <br>Location: ${loc.fields["Neighborhood"]}</li>`;
+	  html += "</div>";
+	  $(".locations").append(html);
+	  
+	  
+    //$(".locations").append("<div onclick=\"location.href='detail.html?id=" + loc.id + "';\" style=\"cursor: pointer;\">");
+    //$(".locations").append(`<li class="description">${loc.fields["Name"]} <br>Location: ${loc.fields["Neighborhood"]}</li>`);
     //$(".locations").append("<img src=\"" + loc.fields["Picture of Landmark"]["0"].url + "\" width=\"auto\" height=\"400\" alt=\"picture\">");
+    //$(".locations").append("</div>");
+    
     
   });
 });
