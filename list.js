@@ -1,11 +1,7 @@
-//Globals.
-var api_key = "keyiTYSW80CCENwb2";
-var loc_records= "https://api.airtable.com/v0/appZBFzcRUVvRqp8i/Landmarks?view=Main%20View&api_key=" + api_key;
-
 $.get(loc_records, function(data) {
   var letter = "A";
+  console.log(data.records);
   $(data.records).each(function(i, loc){  
-    
     //Append header letters per each section, 0th , i'th , and final element
     if(i === 0) {
       letter =  data.records[0].fields["Name"][0].toUpperCase();
@@ -22,17 +18,12 @@ $.get(loc_records, function(data) {
 		  }
 	  }
 	  
+	  //setup each location
 	  var html = "<div onclick=\"location.href='detail.html?id=" + loc.id + "';\" style=\"cursor: pointer;\">";
 	  html += `<li class="description">${loc.fields["Name"]} <br>Location: ${loc.fields["Neighborhood"]}</li>`;
+	  //html += "<img src=\"" + loc.fields["Picture of Landmark"]["0"].url + "\" width=\"auto\" height=\"400\" alt=\"picture\">";
 	  html += "</div>";
 	  $(".locations").append(html);
-	  
-	  
-    //$(".locations").append("<div onclick=\"location.href='detail.html?id=" + loc.id + "';\" style=\"cursor: pointer;\">");
-    //$(".locations").append(`<li class="description">${loc.fields["Name"]} <br>Location: ${loc.fields["Neighborhood"]}</li>`);
-    //$(".locations").append("<img src=\"" + loc.fields["Picture of Landmark"]["0"].url + "\" width=\"auto\" height=\"400\" alt=\"picture\">");
-    //$(".locations").append("</div>");
-    
-    
+	 
   });
 });
