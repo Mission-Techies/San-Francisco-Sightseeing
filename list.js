@@ -5,12 +5,12 @@ $.get(loc_records, function(data) {
     //Append header letters per each section, 0th , i'th , and final element
     if(i === 0) {
       letter =  data.records[0].fields["Name"][0].toUpperCase();
-      $(".locations").append("<h1>" + letter + "</h1>");
+      $(".locations").append("<h1 class=\"letter\">" + letter + "</h1>");
     }
     
     if(loc.fields["Name"][0].toUpperCase() === letter && i > 0) {
        if(letter !== data.records[i-1].fields["Name"][0].toUpperCase()) {
-        $(".locations").append("<h1>" + letter + "</h1>");
+        $(".locations").append("<h1 class=\"letter\">" + letter + "</h1>");
       }
       
 		  if(data.records[i+1]) {
@@ -19,7 +19,7 @@ $.get(loc_records, function(data) {
 	  }
 	  
 	  //setup each location
-	  var html = "<div onclick=\"location.href='detail.html?id=" + loc.id + "';\" style=\"cursor: pointer;\">";
+	  var html = "<div class=\"labels\" onclick=\"location.href='detail.html?id=" + loc.id + "';\" style=\"cursor: pointer;\">";
 	  html += `<li class="description">${loc.fields["Name"]} <br>Location: ${loc.fields["Neighborhood"]}</li>`;
 	  //html += "<img src=\"" + loc.fields["Picture of Landmark"]["0"].url + "\" width=\"auto\" height=\"400\" alt=\"picture\">";
 	  html += "</div>";
