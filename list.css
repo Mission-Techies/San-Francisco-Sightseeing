@@ -16,3 +16,8 @@ body .locations .letter {
     margin: 20px auto;
 }
 
+#map {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}

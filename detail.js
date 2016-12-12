@@ -6,7 +6,7 @@ $.urlParam = function(name) {
 	return null;
 }
 
-var rec_address = "https://api.airtable.com/v0/appZBFzcRUVvRqp8i/Landmarks/" + decodeURIComponent($.urlParam('id')) + "?api_key=" + api_key;
+var rec_address = "https://api.airtable.com/v0/appZBFzcRUVvRqp8i/Landmarks/" + decodeURIComponent($.urlParam('id')) + "?api_key=" + airtable_key;
 
 $.get(rec_address, function(data) {
   console.log(data);	
@@ -19,5 +19,8 @@ $.get(rec_address, function(data) {
   var loc_img = "<img src=\"" + data.fields["Picture of Landmark"]["0"].url + "\" width=\"auto\" height=\"400\" alt=\"picture\">";
   $(".container").append(loc_img);
   //console.log(html);
-
+  var html = "<p>";
+  html += data.fields["Description"];
+  html += "</p>";
+  $(".container").append(html);
 });
