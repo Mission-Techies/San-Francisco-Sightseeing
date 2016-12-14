@@ -6,9 +6,9 @@ body {
 }
 
 .box {
-  background: red;
-  width: 100px;
-  height: 100px;
+  background: blue;
+  width: 500px;
+  height: 500px;
   margin: 20px;
   color: white;
 }
