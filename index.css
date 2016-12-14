@@ -1,0 +1,73 @@
+body {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body .locations .description {
+  text-align: center;
+}
+
+.banner {
+  text-align: center;
+}
+
+#background {
+    width: auto;
+    height: 400px;
+}
+
+#background a img {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.button-container {
+  position: relative;
+  text-align: center;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity:0;
+    pointer-events: all;
+  }
+  8% {
+    opacity:1;
+    pointer-events: all;
+  }
+  25% {
+    opacity:1;
+    pointer-events: all;
+  }
+  33% {
+    opacity:0;
+    pointer-events: none;
+  }
+  100% {
+    opacity:0;
+    pointer-events: none;
+  }
+}
+
+#background a:nth-of-type(1) img {
+  animation-delay: 0s;
+}
+#background a:nth-of-type(2) img {
+  animation-delay: 8s;
+}
+#background a:nth-of-type(3) img {
+  animation-delay: 16s;
+}
+#background a:nth-of-type(4) img {
+  animation-delay: 24s;
+}
+
+#background a img {
+  animation-name: fadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 32s;
+}
