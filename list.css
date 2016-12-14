@@ -1,8 +1,21 @@
 body {
     color: #ffa500;
-    font-size:large;
+    font-size:larger;
     font-family: 'Pacifico', cursive;
     text-align: center;
+}
+
+.box {
+  background: red;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  color: white;
+}
+#one {
+  position: fixed;
+  top: 80px;
+  left: 10px;
 }
 
 body .locations .labels {
