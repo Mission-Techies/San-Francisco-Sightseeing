@@ -9,12 +9,13 @@ body .locations .labels {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    color: #ffa500;
+    color: black;
 }
 
 body .locations .letter {
     width: 400px;
     margin: 20px auto;
+    color: #ffa500;
 }
 
 #map {
