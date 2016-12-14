@@ -9,6 +9,7 @@ body .locations .labels {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+    color: #ffa500;
 }
 
 body .locations .letter {
@@ -21,3 +22,6 @@ body .locations .letter {
     height: 600px;
     margin: auto;
 }
+
+
+
