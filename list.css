@@ -1,6 +1,6 @@
 body {
-    color: black;
-    font-family: sans-serif;
+    color: #ffa500;
+    font-family: 'Pacifico', cursive;
     text-align: center;
 }
 
@@ -16,6 +16,8 @@ body .locations .letter {
     width: 400px;
     margin: 20px auto;
     color: #ffa500;
+    font-family: sans-serif
+    font-size: 16px;
 }
 
 #map {
