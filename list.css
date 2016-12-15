@@ -2,14 +2,14 @@ body {
     color: #ffa500;
     font-size:larger;
     font-family: 'Pacifico', cursive;
-    text-align: center;
+    text-align: right;
 }
 
 body .locations .labels {
     width: 400px;
     height: 300px;
     overflow: scroll;
-    padding-right: 600px;
+    padding-right: 300px;
     position: right;
     color: black;
     font-family: sans-serif;
