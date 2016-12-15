@@ -5,6 +5,22 @@ body {
     text-align: center;
 }
 
+body .locations .letter {
+    width: 200px;
+    overflow: scroll;
+    color: #ffa500;
+    font-family: sans-serif;
+}
+
+body .locations .labels {
+    width: 400px;
+    height: 300px;
+    overflow: scroll;
+    padding-left: 600px;
+    color: black;
+    font-family: sans-serif;
+}
+
 #map {
     width: 600px;
     height: 600px;
@@ -13,24 +29,4 @@ body {
     top: 80px;
     left: 25px;
 }
-
-body .locations .letter {
-    width: 200px;
-    overflow: scroll;
-    color: #ffa500;
-    font-family: sans-serif
-    font-size: 36px;
-    position: right;
-}
-
-body .locations .labels {
-    width: 400px;
-    height: 300px;
-    overflow: scroll;
-    position: right;
-    color: black;
-    font-family: sans-serif;
-}
-
-
 
