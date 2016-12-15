@@ -12,7 +12,16 @@ body .locations .letter {
     color: #ffa500;
     font-family: sans-serif
     font-size: 36px;
-    padding-left: 700px;
+    position: right;
+}
+
+body .locations .labels {
+    width: 400px;
+    height: 300px;
+    overflow: scroll;
+    position: right;
+    color: black;
+    font-family: sans-serif;
 }
 
 #map {
