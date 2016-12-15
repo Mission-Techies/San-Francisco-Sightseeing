@@ -5,19 +5,6 @@ body {
     text-align: center;
 }
 
-.box {
-  background: blue;
-  width: 500px;
-  height: 500px;
-  margin: 20px;
-  color: white;
-}
-#one {
-  position: fixed;
-  top: 80px;
-  left: 10px;
-}
-
 body .locations .labels {
     width: 400px;
     margin-left: auto;
@@ -39,7 +26,9 @@ body .locations .letter {
     width: 600px;
     height: 600px;
     margin: auto;
+    position: fixed;
+    top: 80px;
+    left: 10px;
 }
-
 
 
