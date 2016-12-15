@@ -11,8 +11,6 @@ body .locations .labels {
     overflow: scroll;
     padding-left: 600px;
     position: left;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 10px;
     color: black;
     font-family: sans-serif;
@@ -20,7 +18,9 @@ body .locations .labels {
 
 body .locations .letter {
     width: 400px;
-    margin: 20px auto;
+    height: 300px;
+    overflow: scroll;
+    margin-bottom: 10px;
     color: #ffa500;
     font-family: sans-serif
     font-size: 24px;
