@@ -9,7 +9,6 @@ body .locations .labels {
     width: 400px;
     height: 300px;
     overflow: scroll;
-    padding-right: 300px;
     position: right;
     color: black;
     font-family: sans-serif;
