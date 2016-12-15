@@ -7,6 +7,10 @@ body {
 
 body .locations .labels {
     width: 400px;
+    height: 300px;
+    overflow: scroll;
+    padding-left: 600px;
+    position: left;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -25,9 +29,9 @@ body .locations .letter {
 #map {
     width: 600px;
     height: 600px;
-    margin: 20px;
+    margin: 50px;
     position: fixed;
     top: 80px;
-    left: 10px;
+    left: 25px;
 }
 
