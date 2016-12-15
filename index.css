@@ -1,5 +1,5 @@
 body {
-    color: black;
+    color: blue;
     font-family: sans-serif;
     text-align: center;
 }
@@ -15,6 +15,7 @@ body .locations .description {
 #background {
     width: auto;
     height: 400px;
+    color: black; 
 }
 
 #background a img {
