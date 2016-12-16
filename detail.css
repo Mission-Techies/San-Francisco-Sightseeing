@@ -13,6 +13,13 @@ body .home-button {
     margin-top: 5px;
 }
 
+body .list-button {
+    position: absolute;
+    text-align: left;
+    left: 140px;
+    margin-top: 5px;
+}
+
 
 body .container p { 
      margin: 20px auto;
