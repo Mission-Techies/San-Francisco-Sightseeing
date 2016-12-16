@@ -1,7 +1,9 @@
 body {
-    color: blue;
-    font-family: sans-serif;
+    color: #ffa500;
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
     text-align: center;
+    background-color: black;
 }
 
 body .locations .description {
