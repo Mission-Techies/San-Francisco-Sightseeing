@@ -6,11 +6,10 @@ body {
 
 body .locations .description {
   text-align: center;
-  color: black;
 }
 
 .banner {
-  text-align: center;
+  text-align: left;
 }
 
 #background {
