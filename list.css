@@ -25,11 +25,11 @@ body .header {
 }
 
 body .locations {
-    margin-left: 600px;
-    margin-top: 160px;
+    margin-left: 50%;
+    margin-top: 140px;
     overflow: scroll;
-    width: 600px;
-    height: 600px;
+    width: 40%;
+    height: 80%;
     position: absolute;
     
 }
@@ -55,9 +55,8 @@ body .locations .letter {
 #map {
     width: 40%;
     height: 80%;
-    margin: 0px 50px;
+    margin-left: 75px;
     margin-top: 140px;
     position: absolute;
-    left: 25px;
 }
 
