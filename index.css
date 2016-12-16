@@ -9,7 +9,7 @@ body .locations .description {
 }
 
 .banner {
-  text-align: left;
+  text-align: center;
 }
 
 #background {
@@ -20,7 +20,7 @@ body .locations .description {
 
 #background a img {
   position: absolute;
-  left: 0;
+  left: 50;
   opacity: 0;
   pointer-events: none;
 }
