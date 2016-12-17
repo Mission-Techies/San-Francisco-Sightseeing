@@ -1,7 +1,7 @@
 body {
     color: #ffa500;
     font-size: x-large;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Georgia', sans-serif;
     font-weight: 700;
     text-align: center;
     background-color: black;
@@ -48,7 +48,7 @@ body .locations .labels {
     margin-right: auto;
     margin-bottom: 10px;
     color: white;
-    font-family: 'Dekko', cursive;
+    font-family: 'Georgia', sans-serif;
     font-size: x-large;
 }
 
